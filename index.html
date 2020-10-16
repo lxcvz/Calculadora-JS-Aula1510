@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Lucas</title>
+</head>
+<body>
+<div>
+    Primeiro valor: <input type="number" name="num1" id="num1">
+    <br>
+    Segundo valor: <input type="number" name="num2" id="num2">
+    <br><br>
+    <button id="btnSoma" onclick="soma()">+</button>
+    &nbsp
+    <button id="btnAdicao" onclick="adicao()">-</button>
+    &nbsp
+    <button id="btnMult" onclick="mult()">*</button>
+    &nbsp
+    <button id="btnDivisao" onclick="divisao()">/</button>
+    &nbsp
+    <br><br>
+    Resultado: <input id="resultado" type="text" readonly>
+    <br><br>
+    <button id="btnLimpar" onclick="limpaCampos()">Limpar</button>
+  </div>
+</body>
+</html>
+<script src="calculadora.js"></script>
